@@ -1,0 +1,20 @@
+<!-- La signature de la fonction pour cette template. -->
+@()
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PoC VLC WEB frontend</title>
+
+        <link rel='stylesheet' href='@routes.Assets.versioned("lib/bootstrap/css/bootstrap.min.css")'>
+
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+    </head>
+    <body>
+
+        <div id="app-placeholder"/>
+
+        <!-- Ajoute les scripts du projet "frontend". -->
+        @playscalajs.html.scripts("frontend")
+    </body>
+</html>
