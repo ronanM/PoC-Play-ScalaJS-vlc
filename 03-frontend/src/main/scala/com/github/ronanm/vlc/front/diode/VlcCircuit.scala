@@ -1,8 +1,6 @@
 package com.github.ronanm.vlc.front.diode
 
 import autowire._
-import cats.std.all._
-import cats.syntax.all._
 import diode.{ActionHandler, Circuit, Effect, RootModelRW}
 import upickle.default._
 import com.github.ronanm.vlc.front.comm.Clients._
